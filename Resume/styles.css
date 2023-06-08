@@ -1,0 +1,32 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
+    justify-content: center;
+}
+
+#modal-textbox {
+    background-color: white;
+    height: 350px;
+    width: 558px;
+    border-radius: 2px;
+    margin: 150px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#pdf {
+    margin: auto;
+    position: center;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link href="../main.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -13,14 +14,23 @@
         <a href="../About/index.html" rel="noreferrer"><button>About</button></a>
         <a href="../Contact/index.html" rel="noreferrer"><button>Contact</button></a>
         <a href="index.html" rel="noreferrer"><button>Resume</button></a>
+        <script src="app.js" defer></script>
     </nav>
-    
+
+    <button id="openModal">Resume</button>
+    <div id="modal">
+        <div id="modal-textbox">
+            <a id="close">Close</a>
+            <iframe id="pdf" src="ScottHigashi_Resume (1) copy.pdf"></iframe>
+        </div>
+    </div>
     <main>
         <h1>Resume</h1>
     </main>
     
     <footer>
-        <h3>This is my footer</h3>
+        <h3>Follow me on Twitter:</h3>
+        <h3>Lets link:</h3>
     </footer>
 </body>
 </html>
