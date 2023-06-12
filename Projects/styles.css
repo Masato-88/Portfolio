@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-html {
-    background-color: grey;
-}
-
 body {
     display: flex;
     flex-direction: column;

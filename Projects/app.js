@@ -1,12 +1,12 @@
 //create variable to select all ('button')
-const pageLinks = document.querySelectorAll('button');
+const pageLinks = document.querySelectorAll('a');
 console.log(pageLinks);
 
 pageLinks.forEach(element => {
   element.addEventListener('mouseover', function() {
-    element.style.backgroundColor = 'blue';
+    element.style.color = 'white';
   })
   element.addEventListener('mouseleave', function () {
-    element.style.backgroundColor = 'white';
+    element.style.color = 'darkslategrey';
   })
 })

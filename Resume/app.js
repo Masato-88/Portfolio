@@ -9,26 +9,29 @@ const closeBtn = document.getElementById('close');
 
 //create a function to open the modal
 const openModal = () => {
-    modal.style.display = 'block';
+    modal.style.display = 'flex';
+    openBtn.style.visibility = 'hidden';
 }
 //create eventListener to open modal
-openBtn.addEventListener('click', openModal)
-
+openBtn.addEventListener('click', openModal) 
+    
 //event handler to close modal
 const closeModal = () => {
     modal.style.display = 'none'
+    openBtn.style.visibility = 'initial'
 }
 
-//create variable to select all ('button')
-const pageLinks = document.querySelectorAll('button');
+
+//create variable to select all ('a')
+const pageLinks = document.querySelectorAll('a');
 console.log(pageLinks);
 
 pageLinks.forEach(element => {
   element.addEventListener('mouseover', function() {
-    element.style.backgroundColor = 'blue';
+    element.style.color = 'white';
   })
   element.addEventListener('mouseleave', function () {
-    element.style.backgroundColor = 'white';
+    element.style.color = 'darkslategrey';
   })
 })
 

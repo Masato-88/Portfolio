@@ -7,31 +7,51 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    
 }
 
 #modal {
     background-color: rgba(0, 0, 0, 0.4);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    /* position: fixed; */
+    justify-self: center;
+    align-self: center;
+    height: 70vh;
+    width: auto;
     z-index: 1;
     overflow: auto;
     display: none;
-    justify-content: center;
 }
 
-#modal-textbox {
+#openModal {
+    width: 200px;
+    align-self: center;
+    
+}
+/* #modal-textbox {
     background-color: white;
-    height: 350px;
-    width: 558px;
+    height: auto;
+    width: 90%;
     border-radius: 2px;
     margin: 150px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
 
 #pdf {
-    margin: auto;
-    position: center;
+    width: 500px;
+    height: 700px;
+    justify-self: center;
+    align-self: center;
+}
+
+#close {
+    height: 75px;
+    align-self: center;
+    
+
 }

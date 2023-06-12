@@ -5,7 +5,7 @@ const images = document.getElementsByClassName('images');
 //create variable to grab previus img
 const prev = document.querySelector('.prev')
 //create variable to select all ('button')
-const pageLinks = document.querySelectorAll('button');
+const pageLinks = document.querySelectorAll('a');
 console.log(pageLinks);
 
 //keep track of what image is showing
@@ -39,11 +39,12 @@ prev.addEventListener('click', () => {
     images[currentImgIndex].style.display = 'block'
 });
 
+
 pageLinks.forEach(element => {
-    element.addEventListener('mouseover', function() {
-      element.style.backgroundColor = 'blue';
-    })
-    element.addEventListener('mouseleave', function () {
-      element.style.backgroundColor = 'white';
-    })
+  element.addEventListener('mouseover', function() {
+    element.style.color = 'white';
   })
+  element.addEventListener('mouseleave', function () {
+    element.style.color = 'darkslategrey';
+  })
+})

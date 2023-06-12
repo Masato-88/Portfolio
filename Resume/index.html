@@ -5,31 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="../main.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <a href="../index.html" rel="noreferrer"><button>Home</button></a>
-        <a href="../About/index.html" rel="noreferrer"><button>About</button></a>
-        <a href="../Projects/index.html" rel="noreferrer"><button>Projects</button></a>
-        <a href="index.html" rel="noreferrer"><button>Resume</button></a>
+    <nav class="nav_container">
+        <a href="../index.html" rel="noreferrer"><div>HOME</div></a>
+        <a href="../About/index.html" rel="noreferrer"><div>ABOUT</div></a>
+        <a href="index.html" rel="noreferrer"><div>RESUME</div></a>
+        <a href="../Projects/index.html" rel="noreferrer"><div>PROJECTS</div></a>
         <script src="app.js" defer></script>
     </nav>
-
+    
     <button id="openModal">Resume</button>
     <div id="modal">
-        <div id="modal-textbox">
-            <a id="close">Close</a>
-            <iframe id="pdf" src="ScottHigashi_Resume (1) copy.pdf"></iframe>
-        </div>
+        <!-- <div id="modal-textbox"> -->
+            <button id="close">Close</button>
+            <iframe src="ScottHigashi_Resume (1) copy.pdf" allowfullscreen="true" id="pdf"></iframe>
+        <!-- </div> -->
     </div>
     <main>
         <h1>Resume</h1>
     </main>
-    
     <footer>
-        <h3>Lets link:</h3>
+        <div>
+            <a href="https://www.linkedin.com/in/scott-higashi/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+            
+        <div>
+            <a href="https://github.com/Masato-88" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
         
     </footer>
 </body>
