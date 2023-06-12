@@ -12,6 +12,8 @@ body {
 main {
     flex-grow: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -22,3 +24,8 @@ footer {
     border-top: 2px solid black;
     
 }
+
+h1 {
+    margin-bottom: 100px;
+}
+
