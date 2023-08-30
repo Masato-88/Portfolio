@@ -59,12 +59,9 @@ footer {
     margin-top: 260px;
     justify-content: center;
     align-content: center;
+    /* margin-right: 25px;
+    margin-left: 25px; */
 }
-/* footer>h3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-} */
 
 h1 {
     margin-top: 40px;

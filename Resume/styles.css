@@ -14,39 +14,30 @@ body {
 }
 
 #modal {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: lightgray;
     /* position: fixed; */
     justify-self: center;
     align-self: center;
-    height: 70vh;
+    height: 90vh;
     width: auto;
     z-index: 1;
-    overflow: auto;
+    /* overflow: auto; */
     display: none;
 }
 
 #openModal {
-    width: 200px;
+    width: 250px;
     align-self: center;
+    margin: 1rem;
     
 }
-/* #modal-textbox {
-    background-color: white;
-    height: auto;
-    width: 90%;
-    border-radius: 2px;
-    margin: 150px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
 
 #pdf {
     width: 500px;
     height: 700px;
     justify-self: center;
     align-self: center;
+    /* margin: 0; */
 }
 
 #close {
